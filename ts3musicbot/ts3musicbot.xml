@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>ts3musicbot</Name>
+  <Repository>ts3mb/ts3musicbot</Repository>
+  <Registry>https://hub.docker.com/r/ts3mb/ts3musicbot/</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://hub.docker.com/r/ts3mb/ts3musicbot/</Support>
+  <Project/>
+  <Overview> TS3MusicBot.net Docker Image - One Image endless Bots&#xD;
+&#xD;
+https://hub.docker.com/r/ts3mb/ts3musicbot/</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://www.ts3musicbot.net/linkus/ts3musicbot2.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1669560259</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Container Path 1" Target="/app/ts3mb_tmp" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ts3musicbot/tmp</Config>
+  <Config Name="Container Path 2" Target="/app/ts3mb_core" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ts3musicbot/ts3mb_core</Config>
+  <Config Name="Web Ui Port" Target="8080" Default="80" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
+  <Config Name="Container Port 2" Target="9000" Default="9000" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">9001</Config>
+  <Config Name="account" Target="ACCOUNT" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="admin" Target="PASSWORD_ADMIN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">test123</Config>
+  <Config Name="passwort" Target="PASSWORD_USER" Default="" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">user</Config>
+  <Config Name="ts3mb_media" Target="/ts3mb_media" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/ts3musicbot/ts3mb_media</Config>
+</Container>
